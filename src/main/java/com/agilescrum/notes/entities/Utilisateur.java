@@ -43,4 +43,4 @@ public class Utilisateur {
             joinColumns= @JoinColumn(name = "id" ),
             inverseJoinColumns= @JoinColumn( name = "id"))
     private List<Formation> formationList;
-}
+

@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6212830e-f6ed-41ca-8e56-d407b6381339" name="Changes" comment="Link db">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="49b267db-3c23-425e-b9ce-1c44e1ee3960" name="Changes" comment="Link db">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/DAO/UtilisateurDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/DAO/UtilisateurDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/entities/Formation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/entities/Formation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/entities/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/entities/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/entities/Utilisateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/entities/Utilisateur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/NoteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/NoteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/UtilisateursRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/UtilisateursRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="feature/bdd" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -96,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673962702590</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Link db">
+      <created>1673967560353</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673967560353</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

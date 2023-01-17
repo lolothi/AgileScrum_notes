@@ -27,11 +27,11 @@ public class Note {
 
     @Column(name = "comment")
     private String comment;
-
+    
     @ManyToOne
     @JoinColumn(name = "fk_id_matiere", nullable = false)
     private Matiere matiere;
-
+    
     @ManyToOne
     @JoinColumn(name = "fk_id_user", nullable = false)
     private Utilisateur utilisateur;

@@ -1,5 +1,6 @@
 package com.agilescrum.notes.DAO;
 
+import com.agilescrum.notes.entities.Note;
 import org.springframework.stereotype.Repository;
 
 import com.agilescrum.notes.entities.Utilisateur;
@@ -8,19 +9,20 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 import javax.transaction.Transactional;
+import java.util.List;
 
 @Transactional
 @Repository
 public class UtilisateurDAO {
 
-    @PersistenceContext
+    /*@PersistenceContext
     EntityManager em;
 
     /**
      * Enregistre un utilisateur dans la base de donnée
      * 
      * @param utilisateur
-     */
+     *
 
     public void save(Utilisateur utilisateur) {
         em.persist(utilisateur);
@@ -31,7 +33,7 @@ public class UtilisateurDAO {
      * 
      * @param id
      * @return
-     */
+     *
     public Utilisateur getByID(Long id) {
         return em.find(Utilisateur.class, id);
     }
@@ -42,7 +44,7 @@ public class UtilisateurDAO {
      * @param id
      * @param firstName
      * @param lastName
-     */
+     *
     public void update(Long id, String firstName, String lastName) {
         Utilisateur utilisateurToUpdate = em.find(Utilisateur.class, id);
         utilisateurToUpdate.setFirstName(firstName);
@@ -54,7 +56,7 @@ public class UtilisateurDAO {
      * identifiant
      * 
      * @param id
-     */
+     *
     public void delete(long id) {
         Query query = em.createQuery("delete from Utilisateur o  where o.id= :id");
         query.setParameter("id", id);
@@ -65,11 +67,11 @@ public class UtilisateurDAO {
      * Renvoie la liste de note par utilisateur
      *
      * @return
-     */
+     *
     public List<Note> listNoteByUser() {
         Query query = em.createQuery("REQUETE SQL");
 
         return query.getResultList();
 
-    }
+    }*/
 }

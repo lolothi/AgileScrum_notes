@@ -39,10 +39,10 @@ public class Utilisateur {
         private String password;
 
         @ManyToOne
-        @JoinTable(name = "type_user", joinColumns = @JoinColumn(name = "id"), inverseJoinColumns = @JoinColumn(name = "id"))
-        private List<TypeUtilisateur> typeUtilisateurList;
+        @JoinColumn(name = "fk_id_type_user", nullable = false)
+        private TypeUtilisateur typeUtilisateur;
 
         @ManyToOne
-        @JoinTable(name = "formation", joinColumns = @JoinColumn(name = "id"), inverseJoinColumns = @JoinColumn(name = "id"))
-        private List<Formation> formationList;
+        @JoinColumn(name = "fk_id_formation", nullable = false)
+        private Formation formation;
 }

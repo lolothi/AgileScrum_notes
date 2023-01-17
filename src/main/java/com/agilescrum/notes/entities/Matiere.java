@@ -10,12 +10,12 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "type_user")
+@Table(name = "formation")
 @Getter
 @Setter
 @ToString
 @RequiredArgsConstructor
-public class TypeUtilisateur {
+public class Matiere {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)

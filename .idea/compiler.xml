@@ -10,9 +10,6 @@
         <module name="tp-hibernate-jpa" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="notes" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

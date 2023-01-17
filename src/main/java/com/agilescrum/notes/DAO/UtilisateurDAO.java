@@ -37,6 +37,19 @@ public class UtilisateurDAO {
     }
 
     /**
+     * Récupération d'un utilisateur à partir de son identifiant
+     * 
+     * @param id
+     * @param firstName
+     * @param lastName
+     */
+    public void update(Long id, String firstName, String lastName) {
+        Utilisateur utilisateurToUpdate = em.find(Utilisateur.class, id);
+        utilisateurToUpdate.setFirstName(firstName);
+        utilisateurToUpdate.setLastName(lastName);
+    }
+
+    /**
      * suppression d'un utilisateur de la base de données à partir de son
      * identifiant
      * 
@@ -46,5 +59,17 @@ public class UtilisateurDAO {
         Query query = em.createQuery("delete from Utilisateur o  where o.id= :id");
         query.setParameter("id", id);
         query.executeUpdate();
+    }
+
+    /**
+     * Renvoie la liste de note par utilisateur
+     *
+     * @return
+     */
+    public List<Note> listNoteByUser() {
+        Query query = em.createQuery("REQUETE SQL");
+
+        return query.getResultList();
+
     }
 }

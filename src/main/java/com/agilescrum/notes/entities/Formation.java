@@ -30,6 +30,6 @@ public class Formation {
     private String label;
 
     @ManyToOne
-    @JoinTable(name = "matiere", joinColumns = @JoinColumn(name = "id"), inverseJoinColumns = @JoinColumn(name = "id"))
-    private List<Matiere> matiereList;
+    @JoinColumn(name = "fk_id_matiere", nullable = false)
+    private Matiere matiere;
 }

@@ -1,12 +1,12 @@
 package com.agilescrum.notes.entities;
 
-import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 import org.hibernate.Hibernate;
 
+import javax.persistence.*;
 import java.util.Objects;
 
 @Entity
@@ -34,7 +34,7 @@ public class Note {
 
     @ManyToOne
     @JoinColumn(name = "fk_id_user", nullable = false)
-    private User user;
+    private Utilisateur utilisateur;
 
     @Override
     public boolean equals(Object n) {

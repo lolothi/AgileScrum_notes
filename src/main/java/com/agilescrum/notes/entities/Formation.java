@@ -1,10 +1,16 @@
 package com.agilescrum.notes.entities;
 
-import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.RequiredArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinTable;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
 
 import java.util.List;
 
@@ -24,8 +30,6 @@ public class Formation {
     private String label;
 
     @ManyToOne
-    @JoinTable(name = "matiere",
-            joinColumns= @JoinColumn(name = "id" ),
-            inverseJoinColumns= @JoinColumn( name = "id"))
+    @JoinTable(name = "matiere", joinColumns = @JoinColumn(name = "id"), inverseJoinColumns = @JoinColumn(name = "id"))
     private List<Matiere> matiereList;
 }

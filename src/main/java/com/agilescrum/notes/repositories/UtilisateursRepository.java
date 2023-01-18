@@ -19,9 +19,9 @@ public interface UtilisateursRepository extends CrudRepository <Utilisateur, Lon
     @Query("SELECT Concat(u.first_name, ' ',u.last_name) as Utilisateur, m.label as Matiere, g.Value as note, g.comment " +
             "as Commentaire  FROM user u INNER JOIN grade g On g.fk_id_user = u.id INNER JOIN matiere m ON m.id = g.fk_id_matiere" +
             " WHERE u.username = :username And m.label = :matiere")
-    List<Note> findAllGradeByMatiere(@Param("username") String Nom_Utilisateur, @Param("matiere") String Matiere);
+    List<Note> findAllGradeByMatiere(@Param("username") String Nom_Utilisateur, @Param("matiere") String Matiere);*/
 
-    @Query("SELECT * FROM user u INNER JOIN grade g On g.fk_id_user = u.id INNER JOIN matiere m ON m.id = g.fk_id_matiere" +
+    @Query("SELECT u FROM Utilisateur u INNER JOIN Note g On g.id = u.id INNER JOIN Matiere m ON m.id = g.id" +
             " WHERE u.username = :username AND u.password = :password")
-    Utilisateur findUtilisateurConnecte(@Param("username") String Nom_Utilisateur, @Param("password") String Mot_De_Passe);*/
+    Utilisateur findUtilisateurConnecte(@Param("username") String Nom_Utilisateur, @Param("password") String Mot_De_Passe);
 }

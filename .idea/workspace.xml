@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49b267db-3c23-425e-b9ce-1c44e1ee3960" name="Changes" comment="Crud matiere + test (en cours)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/MatiereRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/agilescrum/notes/MatiereRepositoryTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/MatiereRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/MatiereRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/agilescrum/notes/MatiereRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/agilescrum/notes/MatiereRepositoryTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -173,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673967560353</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Crud matiere + test (en cours)">
+      <created>1674034929753</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674034929753</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

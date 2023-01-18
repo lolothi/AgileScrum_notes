@@ -25,8 +25,8 @@ class NotesApplicationTests {
 		List<Note> notes = (List<Note>) noteRepository.findAll();
 		System.out.println(notes);
 
-		final List<Note> note1 = noteRepository.findByMatiereIdAndUtilisateurId(1L, 3L);
-		System.out.println(note1);
+		//final List<Note> note1 = noteRepository.findByMatiereIdAndUtilisateurId(1L, 3L);
+		//System.out.println(note1);
 
 
 	}

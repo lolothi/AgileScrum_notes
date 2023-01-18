@@ -4,11 +4,6 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49b267db-3c23-425e-b9ce-1c44e1ee3960" name="Changes" comment="Crud matiere + test (en cours)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/MatiereRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/MatiereRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/agilescrum/notes/MatiereRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/agilescrum/notes/MatiereRepositoryTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +34,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KSJO2yfRvaCiGctkjFy63NSsCc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,7 +48,6 @@
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.MatiereRepositoryTests.updateMatiereSetLabelByIdTest">
     <configuration name="NotesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.NotesApplication" />
       <module name="notes" />
@@ -64,7 +61,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatiereRepositoryTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="notes" />
       <extension name="coverage">
         <pattern>
@@ -73,13 +69,12 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.agilescrum.notes" />
-      <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.MatiereRepositoryTests" />
+
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatiereRepositoryTests.updateMatiereSetLabelByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="notes" />
       <extension name="coverage">
         <pattern>
@@ -88,14 +83,11 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.agilescrum.notes" />
-      <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.MatiereRepositoryTests" />
-      <option name="METHOD_NAME" value="updateMatiereSetLabelByIdTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotesApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="notes" />
       <extension name="coverage">
         <pattern>
@@ -104,13 +96,10 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.agilescrum.notes" />
-      <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.NotesApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotesApplicationTests.shouldNotesInDB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="notes" />
       <extension name="coverage">
         <pattern>
@@ -119,27 +108,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.agilescrum.notes" />
-      <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.NotesApplicationTests" />
-      <option name="METHOD_NAME" value="shouldNotesInDB" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MatiereRepositoryTests.updateMatiereSetLabelByIdTest" />
-        <item itemvalue="JUnit.MatiereRepositoryTests" />
-        <item itemvalue="JUnit.NotesApplicationTests" />
-        <item itemvalue="JUnit.NotesApplicationTests.shouldNotesInDB" />
         <item itemvalue="Application.NotesApplication" />
+        <item itemvalue="JUnit.NotesRepositoryTest.shouldGetUserAndMatiere" />
+        <item itemvalue="JUnit.UtilisateurRepositoryTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6212830e-f6ed-41ca-8e56-d407b6381339" name="Changes" comment="" />
+      <changelist id="49b267db-3c23-425e-b9ce-1c44e1ee3960" name="Changes" comment="Update gitignore" />
       <created>1673962014592</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -173,15 +157,17 @@
       <option name="project" value="LOCAL" />
       <updated>1673967560353</updated>
     </task>
-    <task id="LOCAL-00005" summary="Crud matiere + test (en cours)">
-      <created>1674034929753</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1674034929753</updated>
     </task>
     <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate:hibernate-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -196,7 +182,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Link db" />
-    <MESSAGE value="Crud matiere + test (en cours)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Crud matiere + test (en cours)" />
   </component>
 </project>

@@ -4,23 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49b267db-3c23-425e-b9ce-1c44e1ee3960" name="Changes" comment="Link db">
+    <list default="true" id="49b267db-3c23-425e-b9ce-1c44e1ee3960" name="Changes" comment="Crud matiere + test (en cours)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/MatiereRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/agilescrum/notes/MatiereRepositoryTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/NoteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/NoteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/agilescrum/notes/NotesApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/agilescrum/notes/NotesApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/bdd" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
@@ -33,19 +43,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.NotesApplicationTests.shouldNotesInDB">
+}</component>
+  <component name="RunManager" selected="JUnit.MatiereRepositoryTests.updateMatiereSetLabelByIdTest">
     <configuration name="NotesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.NotesApplication" />
       <module name="notes" />
@@ -59,8 +64,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MatiereRepositoryTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="notes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.agilescrum.notes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.agilescrum.notes" />
+      <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.MatiereRepositoryTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatiereRepositoryTests.updateMatiereSetLabelByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="notes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.agilescrum.notes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.agilescrum.notes" />
+      <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.MatiereRepositoryTests" />
+      <option name="METHOD_NAME" value="updateMatiereSetLabelByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotesApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="notes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.agilescrum.notes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.agilescrum.notes" />
+      <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.NotesApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NotesApplicationTests.shouldNotesInDB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tp-hibernate-jpa" />
+      <module name="notes" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.agilescrum.notes.*" />
@@ -75,37 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="tp-hibernate-jpa" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="tp-hibernate-jpa" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NotesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="tp-hibernate-jpa" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.agilescrum.notes.NotesApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.agilescrum.notes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MatiereRepositoryTests.updateMatiereSetLabelByIdTest" />
+        <item itemvalue="JUnit.MatiereRepositoryTests" />
+        <item itemvalue="JUnit.NotesApplicationTests" />
         <item itemvalue="JUnit.NotesApplicationTests.shouldNotesInDB" />
-        <item itemvalue="Spring Boot.NotesApplication" />
-        <item itemvalue="Application.NotesApplication" />
         <item itemvalue="Application.NotesApplication" />
       </list>
     </recent_temporary>
@@ -163,6 +189,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Link db" />
-    <option name="LAST_COMMIT_MESSAGE" value="Link db" />
+    <MESSAGE value="Crud matiere + test (en cours)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Crud matiere + test (en cours)" />
   </component>
 </project>

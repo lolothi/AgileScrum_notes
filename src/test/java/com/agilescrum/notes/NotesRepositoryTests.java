@@ -9,6 +9,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @SpringBootTest
@@ -33,6 +34,22 @@ class NotesRepositoryTests {
 		note1.forEach(note -> {
 			System.out.println("Elève : " + utilisateursRepository.findById(note.getUtilisateur().getId()) + ", note : " + note.getValue());
 		});
+	}
+
+	@Test
+	public void shouldGetUserNotes() {
+		for (Note note:noteRepository.findAllUserGradeWithMatiere(3L)) {
+			Assertions.assertEquals(note.getUtilisateur().getId(), 3L);
+		}
+	}
+
+	@Test
+	public void shouldGetMatieresNotes() {
+		List<Matiere> matieres = new ArrayList();;
+		for (Note note:noteRepository.findAllUserGradeWithMatiere(3L)) {
+			matieres.add(note.getMatiere());
+		}
+		Assertions.assertEquals(matieres.size(), 2);
 	}
 
 	@Test

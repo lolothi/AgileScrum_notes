@@ -4,21 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="49b267db-3c23-425e-b9ce-1c44e1ee3960" name="Changes" comment="Link db">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+=======
+    <list default="true" id="49b267db-3c23-425e-b9ce-1c44e1ee3960" name="Changes" comment="Update gitignore">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/FormationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/TypeUtilisateurRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/agilescrum/notes/NotesRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/agilescrum/notes/UtilisateurRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_0_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/NoteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/NoteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/UtilisateursRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/UtilisateursRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/agilescrum/notes/NotesApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/agilescrum/notes/NotesApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+>>>>>>> origin/develop
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/bdd" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
@@ -27,6 +52,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KSJO2yfRvaCiGctkjFy63NSsCc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,6 +75,7 @@
     "spring.configuration.checksum": "aa5700efcfb19518f01057e89702c1d6",
     "vue.rearranger.settings.migration": "true"
   }
+<<<<<<< HEAD
 }]]></component>
   <component name="RunManager" selected="JUnit.NotesRepositoryTests.shouldUpdateNote">
     <configuration name="NotesRepositoryTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -115,6 +144,18 @@
     <configuration name="NotesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="tp-hibernate-jpa" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.agilescrum.notes.NotesApplication" />
+=======
+}</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install " />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.NotesRepositoryTest">
+    <configuration name="NotesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.NotesApplication" />
+      <module name="notes" />
+>>>>>>> origin/develop
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.agilescrum.notes.*" />
@@ -125,20 +166,94 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NotesRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="notes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.agilescrum.notes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.agilescrum.notes" />
+      <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.NotesRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotesRepositoryTest.shouldGetMatieresNotes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="notes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.agilescrum.notes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.agilescrum.notes" />
+      <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.NotesRepositoryTest" />
+      <option name="METHOD_NAME" value="shouldGetMatieresNotes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotesRepositoryTest.shouldGetUserAndMatiere" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="notes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.agilescrum.notes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.agilescrum.notes" />
+      <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.NotesRepositoryTest" />
+      <option name="METHOD_NAME" value="shouldGetUserAndMatiere" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilisateurRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="notes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.agilescrum.notes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.agilescrum.notes" />
+      <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.UtilisateurRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="JUnit.NotesRepositoryTests.shouldUpdateNote" />
         <item itemvalue="JUnit.NotesRepositoryTests.shouldSeeNotesInDB" />
         <item itemvalue="JUnit.NotesRepositoryTests" />
         <item itemvalue="JUnit.NotesRepositoryTests.shouldNotesInDB" />
         <item itemvalue="Spring Boot.NotesApplication" />
+=======
+        <item itemvalue="JUnit.NotesRepositoryTest" />
+        <item itemvalue="JUnit.NotesRepositoryTest.shouldGetMatieresNotes" />
+        <item itemvalue="Application.NotesApplication" />
+        <item itemvalue="JUnit.NotesRepositoryTest.shouldGetUserAndMatiere" />
+        <item itemvalue="JUnit.UtilisateurRepositoryTest" />
+>>>>>>> origin/develop
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="49b267db-3c23-425e-b9ce-1c44e1ee3960" name="Changes" comment="Link db" />
+=======
+      <changelist id="49b267db-3c23-425e-b9ce-1c44e1ee3960" name="Changes" comment="Update gitignore" />
+>>>>>>> origin/develop
       <created>1673962014592</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -173,11 +288,28 @@
       <option name="project" value="LOCAL" />
       <updated>1673967560353</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update gitignore">
+      <created>1673968081065</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673968081065</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+=======
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate:hibernate-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+>>>>>>> origin/develop
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -192,6 +324,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Link db" />
-    <option name="LAST_COMMIT_MESSAGE" value="Link db" />
+    <MESSAGE value="Update gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update gitignore" />
   </component>
 </project>

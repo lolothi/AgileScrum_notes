@@ -20,5 +20,8 @@ public interface NoteRepository extends CrudRepository<Note, Integer> {
     void findByIdAndUpdate(@NonNull @Param("newNoteValue") Float newNoteValue, @NonNull @Param("noteId") Integer noteId);
 
     @Query(value= "SELECT n FROM Note n where n.matiere.id  =:matiereId AND n.utilisateur.id  =:utilisateurId ORDER BY n.matiere.label asc ")
-    List<Note> findByMatiereIdAndUtilisateurId(@Param("matiereId")Long matiereId, @Param("utilisateurId")Long utilisateurId);
+    List<Note> findByMatiereIdAndUtilisateurId(@Param("matiereId")Integer matiereId, @Param("utilisateurId")Integer utilisateurId);
+    
+    @Query("SELECT n FROM Note n WHERE n.utilisateur.id =:idUser")
+    List<Note> findAllUserGradeWithMatiere(@Param("idUser") Long idUser);
 }

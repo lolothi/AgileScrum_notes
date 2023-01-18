@@ -52,7 +52,6 @@ out/
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
-.idea/workspace.xml
 
 ##############################
 ## Eclipse

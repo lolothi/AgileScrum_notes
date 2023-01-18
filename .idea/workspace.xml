@@ -5,23 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49b267db-3c23-425e-b9ce-1c44e1ee3960" name="Changes" comment="Link db">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/agilescrum/notes/UtilisateurApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/UtilisateursRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/UtilisateursRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/NoteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/NoteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/agilescrum/notes/NotesApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/agilescrum/notes/NotesApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -42,19 +33,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.UtilisateurApplicationTests.shouldUserInDB">
+}]]></component>
+  <component name="RunManager" selected="JUnit.NotesApplicationTests.shouldNotesInDB">
     <configuration name="NotesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.NotesApplication" />
       <module name="notes" />
@@ -84,18 +75,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UtilisateurApplicationTests.shouldUserInDB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="JetRunConfigurationType">
       <module name="tp-hibernate-jpa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.agilescrum.notes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.agilescrum.notes" />
-      <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.UtilisateurApplicationTests" />
-      <option name="METHOD_NAME" value="shouldUserInDB" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="tp-hibernate-jpa" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,8 +103,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UtilisateurApplicationTests.shouldUserInDB" />
         <item itemvalue="JUnit.NotesApplicationTests.shouldNotesInDB" />
+        <item itemvalue="Spring Boot.NotesApplication" />
         <item itemvalue="Application.NotesApplication" />
         <item itemvalue="Application.NotesApplication" />
       </list>
@@ -125,7 +113,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="49b267db-3c23-425e-b9ce-1c44e1ee3960" name="Changes" comment="Link db" />
+      <changelist id="6212830e-f6ed-41ca-8e56-d407b6381339" name="Changes" comment="" />
       <created>1673962014592</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />

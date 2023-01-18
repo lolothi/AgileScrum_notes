@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49b267db-3c23-425e-b9ce-1c44e1ee3960" name="Changes" comment="Link db">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/NoteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/NoteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/agilescrum/notes/NotesApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/agilescrum/notes/NotesApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/agilescrum/notes/NotesApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/agilescrum/notes/NotesRepositoryTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,24 +43,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "aa5700efcfb19518f01057e89702c1d6",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.NotesApplicationTests.shouldNotesInDB">
-    <configuration name="NotesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.NotesApplication" />
-      <module name="notes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.agilescrum.notes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NotesApplicationTests.shouldNotesInDB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.NotesRepositoryTests.shouldUpdateNote">
+    <configuration name="NotesRepositoryTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tp-hibernate-jpa" />
       <extension name="coverage">
         <pattern>
@@ -68,22 +61,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.agilescrum.notes" />
-      <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.NotesApplicationTests" />
+      <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.NotesRepositoryTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotesRepositoryTests.shouldNotesInDB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tp-hibernate-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.agilescrum.notes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.agilescrum.notes" />
+      <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.NotesRepositoryTests" />
       <option name="METHOD_NAME" value="shouldNotesInDB" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="NotesRepositoryTests.shouldSeeNotesInDB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tp-hibernate-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.agilescrum.notes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.agilescrum.notes" />
+      <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.NotesRepositoryTests" />
+      <option name="METHOD_NAME" value="shouldSeeNotesInDB" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+    <configuration name="NotesRepositoryTests.shouldUpdateNote" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tp-hibernate-jpa" />
-      <option name="filePath" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.agilescrum.notes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.agilescrum.notes" />
+      <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.NotesRepositoryTests" />
+      <option name="METHOD_NAME" value="shouldUpdateNote" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,21 +130,23 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NotesApplicationTests.shouldNotesInDB" />
+        <item itemvalue="JUnit.NotesRepositoryTests.shouldUpdateNote" />
+        <item itemvalue="JUnit.NotesRepositoryTests.shouldSeeNotesInDB" />
+        <item itemvalue="JUnit.NotesRepositoryTests" />
+        <item itemvalue="JUnit.NotesRepositoryTests.shouldNotesInDB" />
         <item itemvalue="Spring Boot.NotesApplication" />
-        <item itemvalue="Application.NotesApplication" />
-        <item itemvalue="Application.NotesApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6212830e-f6ed-41ca-8e56-d407b6381339" name="Changes" comment="" />
+      <changelist id="49b267db-3c23-425e-b9ce-1c44e1ee3960" name="Changes" comment="Link db" />
       <created>1673962014592</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673962014592</updated>
+      <workItem from="1674030937637" duration="6553000" />
     </task>
     <task id="LOCAL-00001" summary="Link db">
       <created>1673962432846</created>
@@ -149,6 +178,9 @@
     </task>
     <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

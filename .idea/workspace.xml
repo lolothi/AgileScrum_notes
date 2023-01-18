@@ -4,18 +4,6 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49b267db-3c23-425e-b9ce-1c44e1ee3960" name="Changes" comment="Update gitignore">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/FormationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/TypeUtilisateurRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/agilescrum/notes/NotesRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/agilescrum/notes/UtilisateurRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_0_31.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/NoteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/NoteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/UtilisateursRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/UtilisateursRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/agilescrum/notes/NotesApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/agilescrum/notes/NotesApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +14,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -61,12 +48,6 @@
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="mvn clean install " />
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.NotesRepositoryTest">
     <configuration name="NotesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.NotesApplication" />
       <module name="notes" />
@@ -80,7 +61,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotesRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="notes" />
       <extension name="coverage">
         <pattern>
@@ -89,13 +69,12 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.agilescrum.notes" />
-      <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.NotesRepositoryTest" />
+
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotesRepositoryTest.shouldGetMatieresNotes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="notes" />
       <extension name="coverage">
         <pattern>
@@ -104,14 +83,11 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.agilescrum.notes" />
-      <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.NotesRepositoryTest" />
-      <option name="METHOD_NAME" value="shouldGetMatieresNotes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotesRepositoryTest.shouldGetUserAndMatiere" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="notes" />
       <extension name="coverage">
         <pattern>
@@ -120,14 +96,10 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.agilescrum.notes" />
-      <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.NotesRepositoryTest" />
-      <option name="METHOD_NAME" value="shouldGetUserAndMatiere" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UtilisateurRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="notes" />
       <extension name="coverage">
         <pattern>
@@ -136,16 +108,12 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.agilescrum.notes" />
-      <option name="MAIN_CLASS_NAME" value="com.agilescrum.notes.UtilisateurRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NotesRepositoryTest" />
-        <item itemvalue="JUnit.NotesRepositoryTest.shouldGetMatieresNotes" />
         <item itemvalue="Application.NotesApplication" />
         <item itemvalue="JUnit.NotesRepositoryTest.shouldGetUserAndMatiere" />
         <item itemvalue="JUnit.UtilisateurRepositoryTest" />
@@ -189,12 +157,6 @@
       <option name="project" value="LOCAL" />
       <updated>1673967560353</updated>
     </task>
-    <task id="LOCAL-00005" summary="Update gitignore">
-      <created>1673968081065</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1673968081065</updated>
     </task>
     <option name="localTasksCounter" value="6" />
     <servers />
@@ -220,7 +182,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Link db" />
-    <MESSAGE value="Update gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update gitignore" />
   </component>
 </project>

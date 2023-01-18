@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="49b267db-3c23-425e-b9ce-1c44e1ee3960" name="Changes" comment="Link db">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/NoteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agilescrum/notes/repositories/NoteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/agilescrum/notes/NotesApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/agilescrum/notes/NotesRepositoryTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +143,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673962014592</updated>
-      <workItem from="1674030937637" duration="6553000" />
+      <workItem from="1674030937637" duration="7316000" />
     </task>
     <task id="LOCAL-00001" summary="Link db">
       <created>1673962432846</created>

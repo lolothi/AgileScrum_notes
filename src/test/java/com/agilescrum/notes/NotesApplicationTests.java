@@ -15,20 +15,5 @@ class NotesApplicationTests {
 	@Autowired
 	private NoteRepository noteRepository;
 
-	private Matiere matiere = null;
-
-
-
-	@Test
-	void shouldNotesInDB() {
-		System.out.println("hello");
-		List<Note> notes = (List<Note>) noteRepository.findAll();
-		System.out.println(notes);
-
-		//final List<Note> note1 = noteRepository.findByMatiereIdAndUtilisateurId(1L, 3L);
-		//System.out.println(note1);
-
-
-	}
 
 }
